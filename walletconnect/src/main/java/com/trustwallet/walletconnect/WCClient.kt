@@ -328,7 +328,7 @@ open class WCClient (
             }
         }
     }
-    
+
     private fun subscribe(topic: String): Boolean {
         val message = WCSocketMessage(
             topic = topic,
